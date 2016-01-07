@@ -5,5 +5,7 @@ Guessing game
 =======
 
 1/06 app.js updated to keep track of the no of correct answers.
-     Fourth question: Random number 
+     Fourth question: Random number
 >>>>>>> wednesday2
+1/07/16 Game updated with functions and browser display of answers.
+Greg Magdsick was the driver of this pair programming exercise
