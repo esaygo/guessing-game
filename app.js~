@@ -4,7 +4,6 @@ var counterNo = 0;
 var randomNumber;
 var userGuess;
 
-//second version
 
   var user = prompt ('What is your name?');
   alert ('Welcome, ' + user + ' I will ask you some yes/no questions, please answer with Y or N');
