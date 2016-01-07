@@ -42,9 +42,9 @@ var userGuess;
 
   if (counter >= 2) {
     document.write(user + ', congratulations, you got ' + counter + ' correct answers!');
-}
+  }
   else if (counter = 1) {
-    document.write(user + ', you got only ' + counter + ' correct answers.');
+    document.write(user + ', you got only ' + counter + ' correct answer.');
   }
   else {
     document.write(user + ', sorry, you got ' + counter + ' correct answers.');
@@ -66,4 +66,4 @@ while (userGuess != randomNumber)  {
   }
 }
 
-document.write('<p>'+ user + ' ,you guessed in ' + counterNo + ' tries. The correct number is' +randomNumber + '</p>');
+document.write('<p>'+ user + ', you guessed in ' + counterNo + ' tries. The correct number is' +randomNumber + '</p>');
