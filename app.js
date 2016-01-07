@@ -1,4 +1,4 @@
-
+//init global variables
 var counter = 0;
 var counterNo = 0;
 var randomNumber;
