@@ -76,4 +76,4 @@ function random() {
 //calling last question
 random();
 
-document.write('<p>'+ user + ', you guessed in ' + counterNo + ' tries. The correct number is ' +randomNumber + '.</p>');
+document.write('<p class="right">'+ user + ', you guessed in ' + counterNo + ' tries. The correct number is ' +randomNumber + '.</p>');
