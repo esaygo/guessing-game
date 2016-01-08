@@ -9,3 +9,6 @@ Guessing game
 >>>>>>> wednesday2
 1/07/16 Game updated with functions and browser display of answers.
 Greg Magdsick was the driver of this pair programming exercise
+
+1/08/16 Game updated by D.R.Y.ing out the functions and adding color changes for the answers.
+Ben Harding was the driver of this pair programming exercise
