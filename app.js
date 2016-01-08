@@ -27,11 +27,13 @@ function  questions() {
   if (answer1.toUpperCase() === questionData[i][1] || answer1.toUpperCase() === questionData[i][2]){
     // alert('You are correct');
     questionData[i][5].textContent = questionData[i][3];
+    questionData[i][5].className = 'right';
     counter ++;
   }
   else {
     //alert('I guess you are wrong. Here comes the next question');
     questionData[i][5].textContent = questionData[i][4];
+    questionData[i][5].className = 'wrong';
   }
 }
 
