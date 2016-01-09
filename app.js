@@ -11,23 +11,20 @@ var img2 = document.getElementById('hunter');
 var img3 = document.getElementById('shower');
 var i = 0;
 
-//[question, answer short, answer long, message right, message wrong, html result]
+
 var questionData = [
   ['Is it wrong for a vegetarian to eat animal crackers?', 'N', 'NO', 'You are correct', 'I guess you are wrong. Here comes the next question', res1, './images/crack-me-up.jpg',img1],
   ['Is it ok to shoot tourists during \'tourist season\'?', 'N', 'NO,', 'You are correct', 'I guess you are wrong. Here comes the next question', res2,'./images/hunting.jpg',img2],
   ['Do you like to sing in the shower?', 'Y', 'YES', 'Good for you!', 'Maybe you should consider singing in the shower!', res3,'./images/emo-cat.jpg',img3]
 ];
 
-  var user = prompt ('What is your name?');
+var user = prompt ('What is your name?');
   alert ('Welcome, ' + user + ' I will ask you some yes/no questions, please answer with Y or N');
-
-
 
 function  questions() {
   var answer1 = prompt(questionData[i][0]);
 
-  // make it so that we accept 'n' or 'N' or 'no' or 'NO' as an acceptable response
-  if (answer1.toUpperCase() === questionData[i][1] || answer1.toUpperCase() === questionData[i][2]){
+if (answer1.toUpperCase() === questionData[i][1] || answer1.toUpperCase() === questionData[i][2]){
     // alert('You are correct');
     questionData[i][5].textContent = questionData[i][3];
     questionData[i][5].className = 'right';
@@ -35,7 +32,7 @@ function  questions() {
 
     counter ++;
   }
-  else {
+else {
     //alert('I guess you are wrong. Here comes the next question');
     questionData[i][5].textContent = questionData[i][4];
     questionData[i][5].className = 'wrong';
