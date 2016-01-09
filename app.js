@@ -86,6 +86,9 @@ function random() {
       userGuess = prompt ('Your number is too low. Keep guessing!');
       counterNo++;
     }
+    else if (userGuess == randomNumber) {
+      break;
+    }
     else {
       userGuess = prompt ('I don\'t think you guessed a number. Keep guessing.');
       counterNo++;
