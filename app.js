@@ -77,13 +77,17 @@ function random() {
   //Generate a random number between 1 and 10
   randomNumber = Math.floor((Math.random() * 10) + 1);
 
-  while (userGuess != randomNumber)  {
+  while (userGuess !== randomNumber)  {
     if (userGuess > randomNumber) {
-      userGuess = prompt ('Your number is too high.Keep guessing!');
+      userGuess = prompt ('Your number is too high. Keep guessing!');
       counterNo++;
     }
     else if (userGuess <randomNumber) {
-      userGuess = prompt ('Your number is too low.Keep guessing!');
+      userGuess = prompt ('Your number is too low. Keep guessing!');
+      counterNo++;
+    }
+    else {
+      userGuess = prompt ('I don\'t think you guessed a number. Keep guessing.');
       counterNo++;
     }
   }
