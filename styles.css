@@ -5,3 +5,12 @@
 .wrong {
   color: red;
 }
+
+a {
+text-decoration: none;
+color:rgb(80,80,80);
+}
+
+.question {
+  color: #871FB8;  
+}

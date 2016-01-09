@@ -14,11 +14,9 @@ var questionData = [
   ['Do you like to sing in the shower?', 'Y', 'YES', 'Good for you!', 'Maybe you should consider singing in the shower!', res3]
 ];
 
-
   var user = prompt ('What is your name?');
   alert ('Welcome, ' + user + ' I will ask you some yes/no questions, please answer with Y or N');
   confirm('Are you ready for the game?');
-
 
 function  questions() {
   var answer1 = prompt(questionData[i][0]);
@@ -37,14 +35,10 @@ function  questions() {
   }
 }
 
-
-
 //calling question functions
 for (i = 0; i < questionData.length; i++) {
   questions();
 }
-
-
 
   if (counter >= 2) {
     document.write(user + ', congratulations, you got ' + counter + ' correct answers!');
