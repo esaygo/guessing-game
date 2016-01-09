@@ -6,11 +6,15 @@
   color: red;
 }
 
-a {
-text-decoration: none;
-color:rgb(80,80,80);
+img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 10px;
+
 }
 
-.question {
-  color: #871FB8;  
+a {
+  text-decoration: none;
+  color: rgb(80,80,80);
 }
